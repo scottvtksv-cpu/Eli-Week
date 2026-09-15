@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<style>body{margin:0;padding:0}img{max-width:100%}</style>
+<title>De week van Eli</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;700;900&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+  :root{
+    color-scheme:light;
+    --ink:#33263c;
+    --ink-soft:#75677f;
+    --ink-faint:#a89bb0;
+    --dash:#d9cde0;
+    --ground:#fdf8fb;
+    --card:#ffffff;
+    --line:#f0e6ee;
+    --weekend:#fbf3f8;
+    --accent:#c2185b;
+    --accent-soft:#fce7f0;
+    --shadow:0 1px 2px rgba(51,38,60,.05), 0 8px 22px rgba(51,38,60,.05);
+    --daycol:7.6rem;
+  }
+
+  body{
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+    font-size:17px;
+    line-height:1.45;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{
+    max-width:33rem;
+    margin:0 auto;
+    padding-inline:18px;
+    padding-block:30px 60px;
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+  }
+
+  header{display:flex;flex-direction:column;gap:5px}
+  h1{
+    font-family:"Gabarito", ui-sans-serif, system-ui, sans-serif;
+    font-weight:900;font-size:2.1rem;line-height:1.05;letter-spacing:-.02em;
+    margin:0;text-wrap:balance;
+  }
+  h1 .heart{color:var(--accent)}
+  .sub{color:var(--ink-soft);font-size:.95rem;margin:0}
+
+  /* ---- vast ritme ---- */
+  .ritme{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);padding:16px 20px;
+    display:flex;flex-direction:column;gap:10px;
+  }
+  .eyebrow{
+    font-family:"Gabarito",sans-serif;font-size:.73rem;font-weight:700;
+    letter-spacing:.13em;text-transform:uppercase;color:var(--ink-faint);margin:0;
+  }
+  .ritme dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:7px 16px;align-items:baseline}
+  .ritme dt{color:var(--ink-faint);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+  .ritme dd{margin:0;font-variant-numeric:tabular-nums}
+
+  /* ---- week ---- */
+  section.week{display:flex;flex-direction:column;gap:9px}
+  .weekhead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .weekhead h2{font-family:"Gabarito",sans-serif;font-size:1.25rem;font-weight:700;margin:0;letter-spacing:-.01em}
+  .weekhead .range{color:var(--ink-faint);font-size:.88rem;font-variant-numeric:tabular-nums}
+
+  .weekcard{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);overflow:hidden;
+    display:flex;flex-direction:column;
+  }
+
+  /* één dag = één rij; de rij zelf draagt de tint en de lijn, dus geen gaten */
+  .row{
+    display:grid;
+    grid-template-columns:var(--daycol) minmax(0,1fr);
+    column-gap:12px;
+    align-items:start;
+    padding:11px 18px;
+    border-top:1px solid var(--line);
+  }
+  .row:first-child{border-top:0}
+  .row.we{background:var(--weekend)}
+
+  .day{display:flex;flex-direction:column;line-height:1.2;white-space:nowrap}
+  .day .d{font-family:"Gabarito",sans-serif;font-weight:700;font-size:.97rem;letter-spacing:-.01em}
+  .day .n{color:var(--ink-faint);font-size:.8rem;font-variant-numeric:tabular-nums;margin-top:1px}
+  .day .u{color:var(--ink-soft);font-size:.8rem;font-weight:600;font-variant-numeric:tabular-nums;margin-top:1px}
+
+  .what{display:flex;flex-direction:column;gap:3px;min-width:0}
+  .line{display:block}
+  .t{color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;margin-right:.35em}
+  .who{color:var(--accent);font-weight:700}
+  .leeg{color:var(--dash);font-weight:600}
+  .vrij{color:var(--ink-faint);font-size:.95rem}
+
+  /* ---- Strapdag ---- */
+  .strap{
+    grid-column:1 / -1;
+    margin-top:9px;
+    border-left:3px solid var(--accent);
+    background:var(--accent-soft);
+    border-radius:9px;
+    padding:10px 13px 11px;
+    display:flex;flex-direction:column;gap:5px;
+  }
+  .strap .hl-title{font-family:"Gabarito",sans-serif;font-weight:700;color:var(--accent);line-height:1.25}
+  .strap ul{margin:0;padding-left:1.15em;list-style:disc;display:flex;flex-direction:column;gap:3px}
+  .strap li{font-size:.94rem}
+  .strap li::marker{color:var(--accent)}
+
+  /* ---- lichtere weken ---- */
+  .week.later .weekhead h2{font-size:1.05rem;color:var(--ink-soft)}
+  .week.later .weekcard{box-shadow:none}
+
+  footer{
+    color:var(--ink-faint);font-size:.85rem;border-top:1px solid var(--line);
+    padding-top:15px;display:flex;flex-direction:column;gap:4px;
+  }
+
+  @media (max-width:420px){
+    :root{--daycol:6.9rem}
+    body{font-size:16px}
+    h1{font-size:1.75rem}
+    .wrap{gap:24px;padding-inline:14px}
+    .row{padding:10px 14px;column-gap:10px}
+    .day .d{font-size:.9rem}
+    .ritme{padding:14px 16px}
+    .ritme dl{grid-template-columns:1fr;gap:2px}
+    .ritme dt{margin-top:7px}
+    .ritme dt:first-child{margin-top:0}
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>De week van Eli <span class="heart">💖</span></h1>
+    <p class="sub">Bijgewerkt op dinsdag 15 september 2026</p>
+  </header>
+
+  <div class="ritme">
+    <p class="eyebrow">Elke schooldag hetzelfde</p>
+    <dl>
+      <dt>Opstaan</dt><dd>7u30</dd>
+      <dt>Aan de poort</dt><dd>8u30</dd>
+      <dt>School tot</dt><dd>15u30 — woensdag tot 12u</dd>
+      <dt>Boekentas</dt><dd>fruit, een koekje en een flesje water — <strong>woensdag fruit via school</strong></dd>
+      <dt>Huiswerk</dt><dd>maandag, dinsdag en donderdag</dd>
+    </dl>
+  </div>
+
+  <!-- ===== DEZE WEEK ===== -->
+  <section class="week">
+    <div class="weekhead"><h2>Deze week</h2><span class="range">14 tot 20 september</span></div>
+    <div class="weekcard">
+      <div class="row"><div class="day"><span class="d">maandag</span><span class="n">14 september</span></div><div class="what"><div class="line"><span class="who">MePe</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">dinsdag</span><span class="n">15 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">woensdag</span><span class="n">16 september</span><span class="u">school tot 12u</span></div><div class="what"><div class="line"><span class="who">MaPie</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">donderdag</span><span class="n">17 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">vrijdag</span><span class="n">18 september</span></div><div class="what"><div class="line"><strong>Strapdag</strong></div></div>
+        <div class="strap">
+          <span class="hl-title">Te voet of met de fiets naar school</span>
+          <ul>
+            <li>Fluohesje of fluo-kleren aan</li>
+            <li>Fiets én fietshelm mee, de fiets is hersteld</li>
+            <li>Regenjas als het regent</li>
+            <li>De Kortrijkstraat is autovrij, dus niet met de auto tot aan de poort</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row we"><div class="day"><span class="d">zaterdag</span><span class="n">19 september</span></div><div class="what"><div class="line"><span class="t">15u15</span>Proefles turnen bij Studio Minne, Sporthal Rodelos</div></div></div>
+      <div class="row we"><div class="day"><span class="d">zondag</span><span class="n">20 september</span></div><div class="what"><span class="vrij">Niets gepland</span></div></div>
+    </div>
+  </section>
+
+  <!-- ===== VOLGENDE WEEK ===== -->
+  <section class="week later">
+    <div class="weekhead"><h2>Volgende week</h2><span class="range">21 tot 27 september</span></div>
+    <div class="weekcard">
+      <div class="row"><div class="day"><span class="d">maandag</span><span class="n">21 september</span></div><div class="what"><div class="line"><span class="who">MePe</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">dinsdag</span><span class="n">22 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">woensdag</span><span class="n">23 september</span><span class="u">school tot 12u</span></div><div class="what"><div class="line"><span class="who">MaPie</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">donderdag</span><span class="n">24 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">vrijdag</span><span class="n">25 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row we"><div class="day"><span class="d">zaterdag</span><span class="n">26 september</span></div><div class="what"><span class="vrij">Niets gepland</span></div></div>
+      <div class="row we"><div class="day"><span class="d">zondag</span><span class="n">27 september</span></div><div class="what"><span class="vrij">Niets gepland</span></div></div>
+    </div>
+  </section>
+
+  <!-- ===== DE WEEK DAARNA ===== -->
+  <section class="week later">
+    <div class="weekhead"><h2>De week daarna</h2><span class="range">28 september tot 4 oktober</span></div>
+    <div class="weekcard">
+      <div class="row"><div class="day"><span class="d">maandag</span><span class="n">28 september</span></div><div class="what"><div class="line"><span class="who">MePe</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">dinsdag</span><span class="n">29 september</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">woensdag</span><span class="n">30 september</span><span class="u">school tot 12u</span></div><div class="what"><div class="line"><span class="who">MaPie</span> haalt Eli af</div></div></div>
+      <div class="row"><div class="day"><span class="d">donderdag</span><span class="n">1 oktober</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row"><div class="day"><span class="d">vrijdag</span><span class="n">2 oktober</span></div><div class="what"><span class="leeg">–</span></div></div>
+      <div class="row we"><div class="day"><span class="d">zaterdag</span><span class="n">3 oktober</span></div><div class="what"><span class="vrij">Niets gepland</span></div></div>
+      <div class="row we"><div class="day"><span class="d">zondag</span><span class="n">4 oktober</span></div><div class="what"><span class="vrij">Niets gepland</span></div></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Deze pagina wordt elke zondagavond bijgewerkt. De link blijft altijd dezelfde, je mag hem bewaren bij je favorieten.</span>
+    <span>Enkel de agenda van Eli staat hierop.</span>
+  </footer>
+
+</div>
+
+</body>
+</html>
