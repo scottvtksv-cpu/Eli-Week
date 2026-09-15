@@ -1,7 +1,7 @@
 # De week van Eli — vaste regels
 
 Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, vaste link: https://scottvtksv-cpu.github.io/Eli-Week/ (bestand index.html in de repository scottvtksv-cpu/Eli-Week).
-Wordt elke zondagavond om 19u bijgewerkt via een geplande taak die index.html overschrijft en pusht. De vroegere Artifact-pagina (claude.ai/code/artifact/d4f2f3d1-…) is enkel nog reserve; publiek gedeelde artifacts staan vast op één versie.
+Wordt elke avond om 20u nagekeken door een routine; als de inhoud van de drie weken veranderd is (of op zondag, als de week verschuift), overschrijft ze index.html en pusht ze. Geen wijziging = geen publicatie. De vroegere Artifact-pagina (claude.ai/code/artifact/d4f2f3d1-…) is enkel nog reserve; publiek gedeelde artifacts staan vast op één versie.
 
 ## Inhoud
 
@@ -10,7 +10,7 @@ Wordt elke zondagavond om 19u bijgewerkt via een geplande taak die index.html ov
 - Enkel wat over Eli gaat: schoolafwijkingen (vakantie, pedagogische studiedag, facultatieve verlofdag, schoolactiviteiten zoals Strapdag), wie afhaalt, en Eli's eigen activiteiten (ponyles, turnen, kampen, feestjes).
 - Niets van de ouders zelf (werk, tandarts, oudercomité, Fluvius, etentjes …).
 - Familiemomenten waar de ouders zelf bij zijn ("eten bij opa", "samenkomen met buren", verjaardagen) staan er NIET op — de grootouders weten dat al en er is geen brengen of afhalen door anderen. Enkel als zo'n moment een afhaling of overnachting door iemand anders inhoudt, komt die handeling erop.
-- "Deze week" is de week van maandag tot en met zondag waarin vandaag valt. Draait de update op zondag, dan is "deze week" de week die morgen begint.
+- "Deze week" is de week van maandag tot en met zondag waarin vandaag valt. Op zondag is "deze week" de week die morgen begint.
 - Vast ritme staat één keer bovenaan: opstaan 7u30, aan de poort 8u30, school tot 15u30 (woensdag tot 12u), boekentas fruit + koekje + water (woensdag fruit via school, 20 weken vanaf 16/09/2026 — daarna die vermelding weer weghalen), huiswerk ma/di/do. Dit wordt NIET per dag herhaald.
 - Afhalen: maandag MePe, woensdag MaPie. Staat per dag als "MePe haalt Eli af" / "MaPie haalt Eli af", zonder uur, identiek van vorm.
 - Dat patroon is een standaard, geen zekerheid: bij elke update de agenda nakijken op afwezigheden en logeerpartijen (MaPie/Opa op reis, "Eli naar MePe", ouders weg) en er logica op toepassen.
@@ -22,6 +22,7 @@ Wordt elke zondagavond om 19u bijgewerkt via een geplande taak die index.html ov
 - Datum: weekdag vet, daaronder "7 september" klein grijs. Nooit "maandag 7".
 - Grote schoolactiviteit (zoals Strapdag): korte titel op de dagregel, daaronder een roze kader over de volle rijbreedte met een opsomming van wat mee moet / wat je moet weten.
 - Geen "vandaag"-markering, geen interne notities ("na te kijken") op de pagina.
+- De pagina is publiek leesbaar: nooit achternaam, adres, telefoonnummers, foto's of andere identificerende gegevens op de pagina. Enkel voornamen/roepnamen (Eli, MePe, MaPie, Opa).
 
 ## Vormgeving
 
