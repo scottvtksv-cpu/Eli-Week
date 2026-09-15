@@ -38,5 +38,6 @@ Wordt elke avond om 20u nagekeken door een routine; als de inhoud van de drie we
 
 - Altijd zelf renderen (Playwright, 390 px én 820 px) en de screenshots bekijken vóór publicatie. Geen halfaf versies tonen.
 - Publiceren = index.html in de repository scottvtksv-cpu/Eli-Week overschrijven, committen en pushen naar main (vanuit een Claude Code-sessie waaraan die repository gekoppeld is). Niet meer via de Artifact-tool.
+- Bronagenda’s: kimberly.dke@gmail.com én scottvtk.sv@gmail.com. Beide worden elke keer gelezen; samen vormen ze het beeld. Wat op één van de twee staat telt evenveel.
 - Bij onduidelijkheid in de agenda: niet op de pagina zetten, wel melden.
 - Dit bestand (REGELS.md) is de enige bron van de regels voor de wekelijkse update; de Claude-projectdocumenten zijn vanuit een Code-sessie niet bereikbaar. Wijzigingen aan de regels gebeuren hier.
