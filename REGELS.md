@@ -22,6 +22,7 @@ Wordt elke avond om 20u nagekeken door een routine; als de inhoud van de drie we
 - Datum: weekdag vet, daaronder "7 september" klein grijs. Nooit "maandag 7".
 - Grote schoolactiviteit (zoals Strapdag): korte titel op de dagregel, daaronder een roze kader over de volle rijbreedte met een opsomming van wat mee moet / wat je moet weten.
 - Geen "vandaag"-markering, geen interne notities ("na te kijken") op de pagina.
+- Uitroepteken bij een probleem met halen of brengen, in hetzelfde roze accent als de rest van de pagina, zonder uitleg erbij — enkel het teken en één woord: `!Ophalen` als er die dag nog niemand is om Eli aan school af te halen, `!Voeren` als er nog niemand is om haar te brengen, `!!Overnachting` als het probleem twee dagen na elkaar speelt en Eli dus bij een grootouder moet blijven slapen (beide dagen krijgen dan `!!Overnachting`). Vorm: `<div class="line alarm"><span class="bang">!</span>Ophalen</div>`. Het teken staat er enkel zolang er niemand geregeld is: zodra de agenda iemand noemt, grootouder of ouder, verdwijnt het en komt de gewone regel of een streepje in de plaats.
 - Bovenaan staat enkel de laatste update, mét uur: "Laatste update: dinsdag 15 september 2026 om 21u50". Geen belofte over wanneer de pagina bijgewerkt wordt — niet bovenaan en niet in de voettekst. Die stempel verandert alleen mee als er effectief gepubliceerd wordt.
 - De pagina is publiek leesbaar: nooit achternaam, adres, telefoonnummers, foto's of andere identificerende gegevens op de pagina. Enkel voornamen/roepnamen (Eli, MePe, MaPie, Opa).
 
