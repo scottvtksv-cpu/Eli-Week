@@ -8,6 +8,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Alle zeven dagen staan er, ook als er niets is (dan een streepje "–"; in het weekend "Niets gepland").
 - Enkel wat over Eli gaat: schoolafwijkingen (vakantie, pedagogische studiedag, facultatieve verlofdag, schoolactiviteiten zoals Strapdag), wie afhaalt, en Eli's eigen activiteiten (ponyles, turnen, kampen, feestjes).
 - Niets van de ouders zelf (werk, tandarts, oudercomité, Fluvius, etentjes …).
+- Schoolactiviteiten waar het hele gezin welkom is (eet- en speeldorp, schoolfeest, grootouderfeest, quiz) komen er WEL op, met uur en plaats: de grootouders mogen zelf komen of willen weten dat het er is. Dat is iets anders dan een privé familiemoment.
 - Familiemomenten waar de ouders zelf bij zijn ("eten bij opa", "samenkomen met buren", verjaardagen) staan er NIET op — de grootouders weten dat al en er is geen brengen of afhalen door anderen. Enkel als zo'n moment een afhaling of overnachting door iemand anders inhoudt, komt die handeling erop.
 - "Deze week" is de week van maandag tot en met zondag waarin vandaag valt. Op zondag is "deze week" de week die morgen begint.
 - Vast ritme staat één keer bovenaan: opstaan 7u30, aan de poort 8u30, school tot 15u30 (woensdag tot 12u), boekentas fruit + koekje + water (woensdag fruit via school, 20 weken vanaf 16/09/2026 — daarna die vermelding weer weghalen), huiswerk ma/di/do. Dit wordt NIET per dag herhaald.
