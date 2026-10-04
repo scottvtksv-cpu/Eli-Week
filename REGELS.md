@@ -11,7 +11,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Schoolactiviteiten waar het hele gezin welkom is (eet- en speeldorp, schoolfeest, grootouderfeest, quiz) komen er WEL op, met uur en plaats: de grootouders mogen zelf komen of willen weten dat het er is. Dat is iets anders dan een privé familiemoment.
 - Familiemomenten waar de ouders zelf bij zijn ("eten bij opa", "samenkomen met buren", verjaardagen) staan er NIET op — de grootouders weten dat al en er is geen brengen of afhalen door anderen. Enkel als zo'n moment een afhaling of overnachting door iemand anders inhoudt, komt die handeling erop.
 - "Deze week" is de week van maandag tot en met zondag waarin vandaag valt. Op zondag is "deze week" de week die morgen begint.
-- Vast ritme staat één keer bovenaan: opstaan 7u30, aan de poort 8u30, school tot 15u30 (woensdag tot 12u), boekentas fruit + koekje + water (woensdag fruit via school, 20 weken vanaf 16/09/2026 — daarna die vermelding weer weghalen), huiswerk ma/di/do. Dit wordt NIET per dag herhaald.
+- Vast ritme staat één keer bovenaan: opstaan 7u30, aan de poort 8u30, school tot 15u30 (woensdag tot 12u15), boekentas fruit + koekje + water (woensdag fruit via school, 20 weken vanaf 16/09/2026 — daarna die vermelding weer weghalen), huiswerk ma/di/do. Dit wordt NIET per dag herhaald.
 - Afhalen: maandag MePe, woensdag MaPie. Staat per dag als "MePe haalt Eli af" / "MaPie haalt Eli af", zonder uur, identiek van vorm.
 - Dat patroon is een standaard, geen zekerheid: bij elke update de agenda nakijken op afwezigheden en logeerpartijen (MaPie/Opa op reis, "Eli naar MePe", ouders weg) en er logica op toepassen.
 - Standaard brengt en haalt Kim Eli. Dat is het normale en staat er NIET op.
@@ -19,7 +19,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Slaapt Eli ergens anders omdat de ouders zelf niet thuis zijn (bv. een avond of weekend weg), dan komt dat er WEL op als "Eli slaapt bij Opa" (of wie het is): de grootouders moeten weten waar ze is, want de ouders zijn onbereikbaar of weg. Dat geldt ook in het weekend en ook als de ouders haar zelf brengen.
 - Wat Kim doet (brengen, halen, 's avonds ophalen) staat er nooit op; dat is de standaard. Zegt de agenda niets over een dag, dan doet Kim het en blijft de dag leeg.
 - Een verplaatsing of werkafspraak van Kim of Scott ("Kim naar Bxl", "Kim opleiding in Nederland", "Scott telewerk") is op zich géén signaal dat brengen of halen niet lukt: Kim kan 's ochtends nog voeren en 's avonds nog halen. Enkel als de agenda het uitdrukkelijk zegt — bv. "Kim naar Vilvoorde: Eli naar school brengen en afhalen lukt niet" — verandert die dag. Staat het er niet bij, dan doet Kim het en blijft de dag leeg. Nooit zelf afleiden uit een afwezigheid.
-- Woensdag krijgt in de datumkolom een derde regeltje "school tot 12u".
+- Woensdag krijgt in de datumkolom een derde regeltje "school tot 12u15".
 - Weekendactiviteiten en andere activiteiten met een uur: uur in het roze vooraan, bv. "11u Ponyles op Hof Ter Zevekote".
 - Uurnotatie: 7u30, 8u30, 11u, 12u, 13u, 15u15 — nooit "12u00".
 - Datum: weekdag vet, daaronder "7 september" klein grijs. Nooit "maandag 7".
