@@ -20,6 +20,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Er blijft nooit een andere volwassene bij ons thuis slapen. Staat er in de agenda "X blijft slapen" of "X haalt Eli op en blijft slapen", dan betekent dat altijd dat Eli bij X slaapt — op de pagina: "Eli slaapt bij X". Nooit "X blijft slapen".
 - Wat Kim doet (brengen, halen, 's avonds ophalen) staat er nooit op; dat is de standaard. Zegt de agenda niets over een dag, dan doet Kim het en blijft de dag leeg.
 - Een verplaatsing of werkafspraak van Kim of Scott ("Kim naar Bxl", "Kim opleiding in Nederland", "Scott telewerk") is op zich géén signaal dat brengen of halen niet lukt: Kim kan 's ochtends nog voeren en 's avonds nog halen. Enkel als de agenda het uitdrukkelijk zegt — bv. "Kim naar Vilvoorde: Eli naar school brengen en afhalen lukt niet" — verandert die dag. Staat het er niet bij, dan doet Kim het en blijft de dag leeg. Nooit zelf afleiden uit een afwezigheid.
+- Staat er bij Kim dat ze 's ochtends vroeg ergens moet zijn (bv. "Kim Bxl verplicht. Vroeg er al zijn."), dan kan zij Eli niet naar school brengen: `!Voeren` op die dag, tot de agenda iemand noemt die brengt.
 - Woensdag krijgt in de datumkolom een derde regeltje "school tot 12u15".
 - Weekendactiviteiten en andere activiteiten met een uur: uur in het roze vooraan, bv. "11u Ponyles op Hof Ter Zevekote".
 - Uurnotatie: 7u30, 8u30, 11u, 12u, 13u, 15u15 — nooit "12u00".
