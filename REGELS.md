@@ -46,3 +46,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Bronagenda's: kimberly.dke@gmail.com én scottvtk.sv@gmail.com. Beide worden elke keer gelezen; samen vormen ze het beeld. Wat op één van de twee staat telt evenveel.
 - Bij onduidelijkheid in de agenda: niet op de pagina zetten, wel melden.
 - Dit bestand (REGELS.md) is de enige bron van de regels voor de wekelijkse update; de Claude-projectdocumenten zijn vanuit een Code-sessie niet bereikbaar. Wijzigingen aan de regels gebeuren hier.
+
+## Uitzonderingen (eenmalig, mogen weg zodra de datum voorbij is)
+
+- Zaterdag 24 oktober 2026: geen turnen (Eli gaat naar het feestje van Alice). Ook al staat turnen die dag nog in de agenda, het komt niet op de pagina.
