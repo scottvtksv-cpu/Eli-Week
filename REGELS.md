@@ -12,6 +12,7 @@ Weekoverzicht voor de grootouders (MePe, MaPie). Gepubliceerd op GitHub Pages, v
 - Familiemomenten waar de ouders zelf bij zijn ("eten bij opa", "samenkomen met buren", verjaardagen) staan er NIET op — de grootouders weten dat al en er is geen brengen of afhalen door anderen. Enkel als zo'n moment een afhaling of overnachting door iemand anders inhoudt, komt die handeling erop.
 - "Deze week" is de week van maandag tot en met zondag waarin vandaag valt. Op zondag is "deze week" de week die morgen begint.
 - Vast ritme staat één keer bovenaan: opstaan 7u30, aan de poort 8u30, school tot 15u30 (woensdag tot 12u15), boekentas fruit + koekje + water (woensdag fruit via school, 20 weken vanaf 16/09/2026 — daarna die vermelding weer weghalen), huiswerk ma/di/do. Dit wordt NIET per dag herhaald.
+- In de agenda heet MePe soms "Pépé": dat is dezelfde persoon. Op de pagina altijd "MePe".
 - Afhalen: maandag MePe, woensdag MaPie. Staat per dag als "MePe haalt Eli af" / "MaPie haalt Eli af", zonder uur, identiek van vorm.
 - Dat patroon is een standaard, geen zekerheid: bij elke update de agenda nakijken op afwezigheden en logeerpartijen (MaPie/Opa op reis, "Eli naar MePe", ouders weg) en er logica op toepassen.
 - Standaard brengt en haalt Kim Eli. Dat is het normale en staat er NIET op.
