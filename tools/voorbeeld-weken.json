@@ -1,0 +1,217 @@
+{
+ "weken": [
+  {
+   "titel": "Deze week",
+   "bereik": "2 tot 8 november",
+   "dagen": [
+    {
+     "dag": "maandag",
+     "datum": "2 november",
+     "regels": [
+      {
+       "vet": "Herfstvakantie"
+      }
+     ]
+    },
+    {
+     "dag": "dinsdag",
+     "datum": "3 november",
+     "regels": [
+      {
+       "vet": "Herfstvakantie"
+      }
+     ]
+    },
+    {
+     "dag": "woensdag",
+     "datum": "4 november",
+     "regels": [
+      {
+       "vet": "Herfstvakantie"
+      },
+      {
+       "tekst": "Eli is de hele dag bij",
+       "wie_na": "MaPie"
+      }
+     ]
+    },
+    {
+     "dag": "donderdag",
+     "datum": "5 november",
+     "regels": [
+      {
+       "vet": "Herfstvakantie"
+      }
+     ]
+    },
+    {
+     "dag": "vrijdag",
+     "datum": "6 november",
+     "regels": [
+      {
+       "vet": "Herfstvakantie"
+      },
+      {
+       "uur": "12u",
+       "tekst": "Lunch en boswandeling met",
+       "wie_na": "Opa"
+      }
+     ]
+    },
+    {
+     "dag": "zaterdag",
+     "datum": "7 november",
+     "regels": [
+      {
+       "uur": "15u40",
+       "tekst": "Turnen bij Studio Minne, Sporthal Rodelos"
+      }
+     ]
+    },
+    {
+     "dag": "zondag",
+     "datum": "8 november",
+     "regels": [
+      {
+       "uur": "10u",
+       "tekst": "Ponyles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "Volgende week",
+   "bereik": "9 tot 15 november",
+   "dagen": [
+    {
+     "dag": "maandag",
+     "datum": "9 november",
+     "regels": [
+      {
+       "wie": "MePe",
+       "tekst": "haalt Eli af"
+      }
+     ]
+    },
+    {
+     "dag": "dinsdag",
+     "datum": "10 november",
+     "regels": []
+    },
+    {
+     "dag": "woensdag",
+     "datum": "11 november",
+     "regels": [
+      {
+       "vet": "Geen school",
+       "rest": "— Wapenstilstand"
+      }
+     ]
+    },
+    {
+     "dag": "donderdag",
+     "datum": "12 november",
+     "regels": []
+    },
+    {
+     "dag": "vrijdag",
+     "datum": "13 november",
+     "regels": []
+    },
+    {
+     "dag": "zaterdag",
+     "datum": "14 november",
+     "regels": [
+      {
+       "uur": "15u40",
+       "tekst": "Turnen bij Studio Minne, Sporthal Rodelos"
+      }
+     ]
+    },
+    {
+     "dag": "zondag",
+     "datum": "15 november",
+     "regels": [
+      {
+       "uur": "10u",
+       "tekst": "Ponyles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titel": "De week daarna",
+   "bereik": "16 tot 22 november",
+   "dagen": [
+    {
+     "dag": "maandag",
+     "datum": "16 november",
+     "regels": [
+      {
+       "wie": "MePe",
+       "tekst": "haalt Eli af"
+      }
+     ]
+    },
+    {
+     "dag": "dinsdag",
+     "datum": "17 november",
+     "regels": [
+      {
+       "alarm": "Voeren"
+      }
+     ]
+    },
+    {
+     "dag": "woensdag",
+     "datum": "18 november",
+     "regels": [
+      {
+       "wie": "MaPie",
+       "tekst": "haalt Eli af"
+      }
+     ],
+     "u": "school tot 12u15"
+    },
+    {
+     "dag": "donderdag",
+     "datum": "19 november",
+     "regels": [
+      {
+       "alarm": "Voeren"
+      },
+      {
+       "alarm": "Ophalen"
+      }
+     ]
+    },
+    {
+     "dag": "vrijdag",
+     "datum": "20 november",
+     "regels": [
+      {
+       "alarm": "Voeren"
+      }
+     ]
+    },
+    {
+     "dag": "zaterdag",
+     "datum": "21 november",
+     "regels": [
+      {
+       "uur": "15u40",
+       "tekst": "Turnen bij Studio Minne, Sporthal Rodelos"
+      }
+     ]
+    },
+    {
+     "dag": "zondag",
+     "datum": "22 november",
+     "regels": []
+    }
+   ]
+  }
+ ]
+}
